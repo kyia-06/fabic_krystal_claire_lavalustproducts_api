@@ -143,8 +143,7 @@ $config['users_table'] = 'users';
 | a browser, so set your real domain in production.
 |
 */
-$config['allow_origin'] = getenv('ALLOW_ORIGIN') ?: '*';
- 
+$config['allow_origin'] = 'https://fabic-krystal-claire-lavalustproducts.onrender.com';
 /*
 |--------------------------------------------------------------------------
 | Refresh Token Table
